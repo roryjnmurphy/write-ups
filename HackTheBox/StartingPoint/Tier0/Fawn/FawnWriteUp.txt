@@ -1,0 +1,34 @@
+Task 1 - What does the 3-letter acronym FTP stand for?
+"File Transfer Protocol"
+
+Task 2 - What communication model does FTP use, architecturally speaking?
+"Client-Server Model"
+
+Task 3 - What is the name of one popular GUI FTP program?
+"FileZilla"
+
+Task 4 - Which port is the FTP service active on usually?
+"21 tcp"
+
+Task 5 - What acronym is used for the secure version of FTP?
+"SFTP"
+
+Task 6 - What is the command we can use to test our connection to the target?
+"Ping"
+
+Task 7 - From your scans, what version is FTP running on the target?
+nmap -A -Ss <ip>
+"vsftpd 3.0.3"
+
+Task 8 - From your scans, what OS type is running on the target?
+nmap -A -Ss <ip>
+"Unix"
+
+Submit Flag
+ftp <ip>
+Username: ftp
+Password: password
+ls -l
+get flag.txt
+
+035db21c881520061c53e0536e44f815
